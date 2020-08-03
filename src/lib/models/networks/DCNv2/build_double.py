@@ -1,7 +1,6 @@
 import os
 import torch
-# from torch.utils.ffi import create_extension
-from torch.utils.cpp_extension import BuildExtension as create_extension
+from torch.utils.ffi import create_extension
 
 
 sources = ['src/dcn_v2_double.c']
